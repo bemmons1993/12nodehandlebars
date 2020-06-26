@@ -1,0 +1,19 @@
+.burger {
+    color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.burger1 {
+    color: black;
+    font-size: 14pt;
+    padding: 10px;
+    font-family: 'Comic Sans MS', cursive, sans-serif"
+}
+
+.btn-xs {
+    max-width: 50px;
+}
+
+.text-center {
+    margin-top: 15px;
+}
