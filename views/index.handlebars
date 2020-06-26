@@ -17,6 +17,7 @@
 <div class="col-md-4">
 
   <div class="col-md-12 text-center">
+      <h1>Devour it!</h1>
       {{#each burger}}
         {{#unless this.devoured}}
           <form class="col-md-12" action="/burger/update/{{this.id}}?_method=PUT" method="POST">
@@ -32,6 +33,7 @@
 <div class="col-md-4">
  
   <div class="col-md-12 text-center">
+    <h2>Devoured Burgers</h2>
     {{#each burger}}
       {{#if this.devoured}}
           <form class="col-md-12" action="/burger/delete/{{this.id}}?_method=PUT" method="POST">
